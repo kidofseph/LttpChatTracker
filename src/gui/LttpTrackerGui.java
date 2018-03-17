@@ -697,7 +697,7 @@ public class LttpTrackerGui
 		{
 			LttpTracker bot = new LttpTracker();
 			bot.setVerbose(true);
-			bot.connect("irc.chat.twitch.tv", 6667, "oauth:ca3ww72dfyhq39yea6pfn6oktaee0o");
+			bot.connect("irc.chat.twitch.tv", 6667, "");
 			bot.joinChannel("#" + LttpTrackerConstants.USER);
 		}
 		catch(IrcException | IOException e)
